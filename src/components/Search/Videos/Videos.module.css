@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .player{
+        width: 355px;
+        height: 200px;
+    }
+}

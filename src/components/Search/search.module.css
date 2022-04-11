@@ -1,0 +1,46 @@
+.container{
+    max-width: 1170px;
+    padding: 10px 10px 0 10px;
+    margin: 0 auto;
+   min-height: 70px;
+    position: relative;
+}
+.logo{
+    height: 50px;
+    margin-bottom: 10px;
+}
+.card__link{
+    transition: opacity .3s;
+}
+.card__link:hover{
+    opacity: .7;
+}
+.contentContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.title {
+    transition: opacity .3s;
+    font-weight: normal !important;
+    margin-bottom:0;
+    font-size: 20px;
+}
+@media (max-width: 867px) {
+    .logo{
+        margin: 0 auto 10px;
+    }
+}
+@media (max-width: 778px) {
+    .checkbox{
+        margin: 10px auto;
+    }
+}
+@media (max-width: 767px) {
+    .title{
+        font-size: 18px;
+    }
+}
+.title:hover{
+    opacity: 0.7;
+}
